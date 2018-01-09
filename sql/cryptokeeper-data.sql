@@ -14,17 +14,17 @@ VALUES (4, 'Getränke Handel Hans', 'Buschkrug Alle 12', 'Groß Kiez', '13147');
 
 --kontakt_person
 
-INSERT INTO kontakt_person (vornamen, nachnamen, position, email, telefonnummer, ansprechpartner_von)
-VALUES ('Lisa', 'Schmidt', 'Assistent', 'lisa.schmidt@coinholder.gmbh', '123456789', 1);
+INSERT INTO kontakt_person (kontakt_id, vornamen, nachnamen, position, email, telefonnummer, ansprechpartner_von)
+VALUES (0, 'Lisa', 'Schmidt', 'Assistent', 'lisa.schmidt@coinholder.gmbh', '123456789', 1);
 
-INSERT INTO kontakt_person (vornamen, nachnamen, position, email, telefonnummer, ansprechpartner_von)
-VALUES ('Linda', 'Krans', 'Geschäftsführer', 'krans@linda.de', '234567890', 2);
+INSERT INTO kontakt_person (kontakt_id, vornamen, nachnamen, position, email, telefonnummer, ansprechpartner_von)
+VALUES (1, 'Linda', 'Krans', 'Geschäftsführer', 'krans@linda.de', '234567890', 2);
 
-INSERT INTO kontakt_person (vornamen, nachnamen, position, email, telefonnummer, ansprechpartner_von)
-VALUES ('Harald', 'Hard', 'Inhaber', 'hart@harald.com', '345678901', 3);
+INSERT INTO kontakt_person (kontakt_id, vornamen, nachnamen, position, email, telefonnummer, ansprechpartner_von)
+VALUES (2, 'Harald', 'Hard', 'Inhaber', 'hart@harald.com', '345678901', 3);
 
-INSERT INTO kontakt_person (vornamen, nachnamen, position, email, telefonnummer, ansprechpartner_von)
-VALUES ('Frido', 'Froh', 'Assistent', 'froh@hans-getranke.de', '456789012', 4);
+INSERT INTO kontakt_person (kontakt_id, vornamen, nachnamen, position, email, telefonnummer, ansprechpartner_von)
+VALUES (3, 'Frido', 'Froh', 'Assistent', 'froh@hans-getranke.de', '456789012', 4);
 
 --boerse
 

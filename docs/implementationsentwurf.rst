@@ -58,3 +58,17 @@ Verfeinerung durch Zusammenfassung
     Algorithmus: {[\underline{AlgorithmusId : integer}, Name : string]}
 
     Prüf Verfahren: {[\underline{PruefVerfahrenId : integer}, Name : string]}
+
+Tabellen Form
+-------------
+
+=====  =====
+Inputs
+------------
+  A      B
+=====  =====
+False  False
+True   False
+False  True
+True   True
+=====  =====

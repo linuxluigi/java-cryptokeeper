@@ -1,4 +1,4 @@
-package de.htw_berlin.edu;
+package de.htw_berlin.edu.cryptokeeper.models;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class DatabaseConnection {
 
-    Connection connection;
+    private Connection connection;
 
     public void connectToDatabase() throws ClassNotFoundException, SQLException {
         Class.forName("org.postgresql.Driver");

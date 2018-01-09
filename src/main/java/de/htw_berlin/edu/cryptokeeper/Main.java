@@ -1,4 +1,4 @@
-package de.htw_berlin.edu;
+package de.htw_berlin.edu.cryptokeeper;
 
 import java.sql.SQLException;
 

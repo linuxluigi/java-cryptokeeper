@@ -22,7 +22,7 @@ CREATE TABLE investor
 
 CREATE TABLE kontakt_person
 (
-  kontakt_id          SERIAL PRIMARY KEY,
+  kontakt_id          INTEGER PRIMARY KEY,
   vornamen            VARCHAR(30)        NOT NULL,
   nachnamen           VARCHAR(30)        NOT NULL,
   position            CHAR(15) CHECK (position IN ('Inhaber', 'Geschäftsführer', 'Assistent')),

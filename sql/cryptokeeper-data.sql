@@ -82,16 +82,16 @@ VALUES (4, 'CRAIG', 'CRAIG', 4, 2);
 --wallet
 
 INSERT INTO wallet (wallet_id, addresse, gesicherter)
-VALUES (1, 'itdw27cN3mprpZ3PTAUs4FKuEg7wAnh6URw8a14PCBkbgd11LwO91sQlTd7qI29oQOl2z8NFSfQnQx6t', 1);
+VALUES (1, 'itdw27cN3mprpZ3PTAUs4FKuEg7wAnh6URw8a14PCBk', 1);
 
 INSERT INTO wallet (wallet_id, addresse, gesicherter)
-VALUES (2, 'N5u2a5u3szELc9SiEseVmjKiHMZKm5imcRQlQQZfLhefYaDhG35SrKVyTKeOM25z835k3aCKeuLSb9nW', 2);
+VALUES (2, 'N5u2a5u3szELc9SiEseVmjKiHMZKm5imcRQlQQZfLhe', 2);
 
 INSERT INTO wallet (wallet_id, addresse, gesicherter)
-VALUES (3, 'uibRalcAD1Af5nPezQBfQKF24F48h68Vqlixn6WpmT1GyGN1CvPhWltzWR9BEMNHl36apbEOOrXiI5TA', 3);
+VALUES (3, 'uibRalcAD1Af5nPezQBfQKF24F48h68Vqlixn6WpmT1', 3);
 
 INSERT INTO wallet (wallet_id, addresse, gesicherter)
-VALUES (4, 'tf89JYlxByyCklLdv96irL4QF7ibdyYGK62OFeYqIy27kukbl8XadbbGpmzUTnZKU3qFpgPeYi60RoXq', 4);
+VALUES (4, 'tf89JYlxByyCklLdv96irL4QF7ibdyYGK62OFeYqIy2', 4);
 
 --transaktion
 

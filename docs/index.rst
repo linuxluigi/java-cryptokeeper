@@ -14,3 +14,5 @@ Cryptokeeper
    er-diagramm
    implementationsentwurf
    sql-script
+   operatorbaum
+   sql-commands

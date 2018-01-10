@@ -74,5 +74,6 @@ CREATE TABLE transaktion
   wechselkurs      FLOAT NOT NULL,
   transaktions_art CHAR(4) CHECK (transaktions_art IN ('buy', 'sell')),
   gehandelt        INTEGER REFERENCES krypto_coin,
-  gesichert_in      INTEGER REFERENCES wallet
+  gesichert_in     INTEGER REFERENCES wallet,
+  gehoert          INTEGER REFERENCES investor
 );

@@ -48,5 +48,10 @@ public class Transaktion extends MainTable {
                 EntryType.INT
         ));
 
+        super.addTableEntrie(new TableEntry(
+                "gehoert",
+                EntryType.INT
+        ));
+
     }
 }

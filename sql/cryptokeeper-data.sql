@@ -15,7 +15,7 @@ VALUES (4, 'Getränke Handel Hans', 'Buschkrug Alle 12', 'Groß Kiez', '13147');
 --kontakt_person
 
 INSERT INTO kontakt_person (kontakt_id, vornamen, nachnamen, position, email, telefonnummer, ansprechpartner_von)
-VALUES (0, 'Lisa', 'Schmidt', 'Assistent', 'lisa.schmidt@coinholder.gmbh', '123456789', 1);
+VALUES (0, 'Lisa', 'Schmidt', 'Assistent', 'lisa.schmidt@coin.de', '123456789', 1);
 
 INSERT INTO kontakt_person (kontakt_id, vornamen, nachnamen, position, email, telefonnummer, ansprechpartner_von)
 VALUES (1, 'Linda', 'Krans', 'Geschäftsführer', 'krans@linda.de', '234567890', 2);
@@ -93,16 +93,19 @@ VALUES (3, 'uibRalcAD1Af5nPezQBfQKF24F48h68Vqlixn6WpmT1', 3);
 INSERT INTO wallet (wallet_id, addresse, gesicherter)
 VALUES (4, 'tf89JYlxByyCklLdv96irL4QF7ibdyYGK62OFeYqIy2', 4);
 
+INSERT INTO wallet (wallet_id, addresse, gesicherter)
+VALUES (5, 'ddddJYlxByydsfggfddfghCklLdv96irL4QF7isdIy2', 1);
+
 --transaktion
 
-INSERT INTO transaktion (transaction_id, anzahl, wechselkurs, transaktions_art, gehandelt, gesichert_in)
-VALUES (1, 12.5, 1.99, 'buy', 1, 1);
+INSERT INTO transaktion (transaction_id, anzahl, wechselkurs, transaktions_art, gehandelt, gesichert_in, gehoert)
+VALUES (1, 12.5, 1.99, 'buy', 1, 1, 1);
 
-INSERT INTO transaktion (transaction_id, anzahl, wechselkurs, transaktions_art, gehandelt, gesichert_in)
-VALUES (2, 5, 0.001, 'buy', 2, 2);
+INSERT INTO transaktion (transaction_id, anzahl, wechselkurs, transaktions_art, gehandelt, gesichert_in, gehoert)
+VALUES (2, 5, 0.001, 'buy', 2, 2, 2);
 
-INSERT INTO transaktion (transaction_id, anzahl, wechselkurs, transaktions_art, gehandelt, gesichert_in)
-VALUES (3, 19.99, 10242.001, 'sell', 3, 3);
+INSERT INTO transaktion (transaction_id, anzahl, wechselkurs, transaktions_art, gehandelt, gesichert_in, gehoert)
+VALUES (3, 19.99, 10242.001, 'sell', 3, 3, 3);
 
-INSERT INTO transaktion (transaction_id, anzahl, wechselkurs, transaktions_art, gehandelt, gesichert_in)
-VALUES (4, 0.0012, 23.53, 'buy', 4, 4);
+INSERT INTO transaktion (transaction_id, anzahl, wechselkurs, transaktions_art, gehandelt, gesichert_in, gehoert)
+VALUES (4, 0.0012, 23.53, 'buy', 4, 4, 3);

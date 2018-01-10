@@ -1,13 +1,13 @@
 --drop tables if exists
 
 DROP TABLE kontakt_person;
-DROP TABLE investor;
 DROP TABLE transaktion;
 DROP TABLE boerse;
 DROP TABLE wallet;
 DROP TABLE krypto_coin;
 DROP TABLE algorithmus;
 DROP TABLE pruef_verfahren;
+DROP TABLE investor;
 
 --create new tables
 
